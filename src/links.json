@@ -1,0 +1,12 @@
+{
+    "socials": [
+        {"name": "instagram", "link": ""},
+        {"name": "linkedin", "link": ""},
+        {"name": "email", "link": ""}
+    ],
+    "links": [
+        {"name": "website", "text": "Website", "image": "homepage.svg", "link": "https://www.google.com"},
+        {"name": "github", "text": "Github", "image": "github.svg", "link": "https://www.github.com/pedrocsmoreira"},
+        {"name": "calendar", "text": "Book a Meeting!", "link": "https://www.isep.ipp.pt"}
+    ]
+}

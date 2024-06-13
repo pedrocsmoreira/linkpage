@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>TESTE</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/index.css"/>
+	</head>
+	<body>
+		<main>
+			<header>
+				<img src="img/head.jpg" />
+				<h1>Pedro Moreira</h1>
+			</header>
+			<ul>
+                <% for (let link of links) { %>
+                    <li>
+                        <a href="<%= link.link %>">
+                            <img src="svg/<%= link.image %>" alt="Homepage" width="20" />
+                            <%= link.text %>
+                        </a>
+                    </li>
+                <% } %>
+			</ul>
+		</main>
+	</body>
+</html>
