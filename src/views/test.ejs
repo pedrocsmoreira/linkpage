@@ -2,9 +2,10 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>TESTE</title>
+		<title>Pedro Moreira - Links</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="css/index.css"/>
+		<link rel="preload" href="img/bg.jpg" as="image" />
 	</head>
 	<body>
 		<main>
@@ -13,14 +14,42 @@
 				<h1>Pedro Moreira</h1>
 			</header>
 			<ul>
-                <% for (let link of links) { %>
-                    <li>
-                        <a href="<%= link.link %>">
-                            <img src="svg/<%= link.image %>" alt="Homepage" width="20" />
-                            <%= link.text %>
-                        </a>
-                    </li>
-                <% } %>
+				<li>
+					<a href="https://www.craftz.dog/">
+						<img src="svg/homepage.svg" alt="Homepage" width="20" />
+						My Website
+					</a>
+				</li>
+				<li>
+					<a href="https://www.craftz.dog/wallpapers">
+						<img src="svg/blog.svg" alt="Blog" width="20" />
+						Blog
+					</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/playlist?list=UU7yZ6keOGsvERMp2HaEbbXQ&index=1&playnext=1">
+						<img src="svg/youtube.svg" alt="YouTube" width="20" />
+						devaslife
+					</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/playlist?list=PLFzcienOaLeMROdS1xgzPABodPZ4V4A0a&index=1&playnext=1">
+						<img src="svg/youtube.svg" alt="YouTube" width="20" />
+						Second channel
+					</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/inkdrop_app">
+						<img src="svg/x-logo.svg" alt="X (Twitter)" width="20" />
+						X (Twitter)
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/craftzdog">
+						<img src="svg/github.svg" alt="GitHub" width="20" />
+						GitHub
+					</a>
+				</li>
 			</ul>
 		</main>
 	</body>

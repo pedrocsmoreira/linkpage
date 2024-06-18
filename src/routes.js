@@ -5,13 +5,9 @@ const mylinks = require('./links.json');
 const urls = require('./urls.json');
 
 router.get('/', function(req, res) {
-    res.render('index');
-});
-
-router.get('/teste', function(req, res) {
     const socials = mylinks.socials;
     const links = mylinks.links;
-    res.render('test', {socials: socials, links: links});
+    res.render('index', {socials: socials, links: links});
 });
 
 router.get('/:linkID', function(req, res) {
